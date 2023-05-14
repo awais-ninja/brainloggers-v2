@@ -1,0 +1,77 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "../styles/fontawesome-free-6.4.0-web/scss/brands.scss";
+@import "../styles/fontawesome-free-6.4.0-web/scss/fontawesome.scss";
+@import "../styles/fontawesome-free-6.4.0-web/scss/regular.scss";
+@import "../styles/fontawesome-free-6.4.0-web/scss/solid.scss";
+@import "../styles/fontawesome-free-6.4.0-web/scss/v4-shims.scss";
+
+@import "../styles/hover-min.css";
+@import "../styles/main.css";
+
+.nav-link-custom {
+  color: black;
+  font-size: 1rem !important; /* Increase the font size */
+  font-weight: bold !important; /* Make the text bold */
+}
+
+.nav-link-custom:hover {
+  color: blue !important; /* Change the color to blue on hover */
+  transition: color 0.5s; /* Transition the color change over 0.5 seconds */
+}
+
+.cst-snap {
+  font-size: 20px;
+}
+
+.corona {
+  background-color: #2727270d;
+  padding-bottom: 20px;
+}
+.corona {
+  h1 {
+    text-align: center;
+    i {
+      color: #c03035ff;
+    }
+  }
+  h2 {
+    text-align: center;
+    color: #686868;
+    margin-top: 10px;
+  }
+  p {
+    text-align: center;
+  }
+}
+
+.cst-service-one {
+  visibility: visible;
+  animation-duration: 1000ms;
+  animation-delay: 100ms;
+  animation-name: fadeIn;
+}
+
+.cst-service-two {
+  visibility: visible;
+  animation-duration: 100ms;
+  animation-delay: 50ms;
+  animation-name: scaleIn;
+}
+.cst-center-left {
+  visibility: visible;
+  animation-duration: 100ms;
+  animation-delay: 100ms;
+  animation-name: fadeInLeft;
+}
+
+.cst-center-right {
+  visibility: visible;
+  animation-duration: 100ms;
+  animation-delay: 100ms;
+  animation-name: fadeInRight;
+}
+
+.cst-center-img {
+  background-image: url("../images/home/svg+xml;base64\,PHN2ZyBoZWlnaHQ9IjMwIiB3aWR0aD0iMzUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxmaWx0ZXIgaWQ9ImEiIGhlaWdodD0iMTM4LjclIiB3a.svg");
+}
